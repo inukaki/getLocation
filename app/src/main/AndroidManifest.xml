@@ -27,11 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".MainActivity"/>
+<!--        <receiver android:name=".MainActivity"/>-->
 <!--        追加行-->
-        <service
-            android:name="LocationTrackingService"
-            android:foregroundServiceType="location" />
+<!--        <service-->
+<!--            android:name="LocationTrackingService"-->
+<!--            android:foregroundServiceType="location" />-->
     </application>
 
 </manifest>
